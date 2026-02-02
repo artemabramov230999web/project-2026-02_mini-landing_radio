@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
+  background-color: #efefef;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+
+  .logo__img {
+   margin-bottom: 13px;
+  }
+
+  .logo__text {
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}

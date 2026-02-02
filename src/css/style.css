@@ -1,0 +1,12 @@
+@import url('./libs/normalize.css');
+
+@import url('./base/reset.css');
+@import url('./base/global.css');
+
+@import url('./blocks/banner.css');
+@import url('./blocks/about.css');
+@import url('./blocks/info.css');
+@import url('./blocks/advantages.css');
+@import url('./blocks/bonus.css');
+@import url('./blocks/webinar.css');
+@import url('./blocks/footer.css');

@@ -1,0 +1,77 @@
+.banner {
+  padding-block: 22px;
+  min-height: 800px;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+
+  .logo {
+    margin-bottom: 52px;
+  }
+}
+
+.banner__title {
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #f9bf3b;
+  margin-bottom: 20px;
+  
+  span {
+    margin-block: 12px;
+    display: block;
+    font-size: 80px;
+    line-height: 1;
+    color: #fff;
+  }
+}
+
+.banner__text {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.33;
+  margin-bottom: 75px;
+
+  span {
+    color: #f9bf3b;
+  }
+}
+
+.banner-btn {
+  border-radius: 4px;
+  width: 315px;
+  padding: 23px;
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
+  text-shadow: -1px -1px 0  rgba(0, 0, 0, 0.22);
+}
+
+.banner__more {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 29px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 53px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 30px;
+    height: 19px;
+    background-image: url('./../../icons/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+  }
+}

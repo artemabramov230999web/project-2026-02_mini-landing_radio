@@ -1,0 +1,26 @@
+.bonus {
+  padding: 80px 0;
+  text-align: center;
+}
+.bonus__img {
+  max-width: 160px;
+  margin-bottom: 80px;
+}
+.bonus__descr {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  color: #252525;
+  margin-bottom: 60px;
+}
+.bonus__btn {
+  border-radius: 4px;
+  width: 315px;
+  padding: 23px;
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
+  text-shadow: -1px -1px 0  rgba(0, 0, 0, 0.22);
+}
